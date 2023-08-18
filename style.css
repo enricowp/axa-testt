@@ -1,0 +1,116 @@
+body{font-family: 'Poppins', sans-serif;}
+img{max-width: 100%;}
+h1,h2,h3,h4,h5,h6{color: #000}
+ul > li{list-style-type: none;}
+a:hover{text-decoration: none;}
+.smartphone{display: none !important;}
+
+.header{
+    border-top: 20px solid #26468f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ebebeb;
+}
+.header a{
+    background-color: #26468f;
+    border-color: #26468f;
+}
+
+.intro{
+    margin-top: -70px;
+    padding-bottom: 50px;
+}
+
+.redefining{
+    background-image: url("images/bg-family.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+}
+.redefining > a{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    padding: 5px 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #063585;
+    border-color: #063585;
+    box-shadow: 7px 7px rgba(128,128,128, 0.5);
+}
+
+.benefit{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.benefit > div > div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.benefit > div > div > div > div > p{
+    line-height: 125%;
+}
+
+.about-us{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f5f7fd;
+    position: relative;
+}
+.about-us > img{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.about-us > div > a{
+    font-size: 30px;
+    padding: 5px 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #063585;
+    border-color: #063585;
+    box-shadow: 7px 7px rgba(128,128,128, 0.5);
+}
+
+.protection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url("images/bg-family-2.png");
+    background-size: cover;
+    background-position: center;
+}
+.protection button{
+    padding: 5px 40px;
+    background-color: #26468f;
+    border-color: #26468f;
+}
+
+.step{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    position: relative;
+    background-color: #f9f9f8;
+}
+.step > img{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.footer{
+    color: #fff;
+    background-color: #26468f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-blue{color: #063585 !important;}
+.font-14{font-size: 14px;}
